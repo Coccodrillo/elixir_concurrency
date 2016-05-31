@@ -1,7 +1,7 @@
 defmodule BasicMessagePassing.Listen do
   def listen do
     receive do
-      {:ok, input} -> IO.puts input <> " Madrid"
+      {:ok, input} -> IO.puts "#{input} Madrid"
     end
   end
 end
